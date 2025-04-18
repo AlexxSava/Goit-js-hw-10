@@ -30,3 +30,48 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+.header {
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-logo {
+  margin-bottom: 12px;
+}
+
+.nav-logo-icon {
+  fill: #333;
+}
+
+.nav-list {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #242424;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+
+
